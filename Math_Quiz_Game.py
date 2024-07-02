@@ -10,9 +10,9 @@
 import random
 import time
 
+print("🟩 answer the questions as fast as you can.\n🟦 Remember that you have at least 5 seconds for each question!")
 
 score = 0
-
 for x in range(1, 5):
     num1 = random.randint(1, 9)
     num2 = random.randint(1, 9)
